@@ -30,14 +30,6 @@ a:active {
   color: whitesmoke;
 }
 
-/*
-#root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-*/
-
 #content {
   position: absolute;
   z-index: 1;
@@ -57,9 +49,8 @@ a:active {
 }
 
 #head {
-  font-size: 35px;
+  font-size: 40px;
   padding: 20px;
-  /*padding-top: 50px;*/
   display: flex;
   justify-content: space-around;
 }
@@ -121,6 +112,12 @@ button:hover {
 
 #github:hover {
   background-color: #7d2a7c;
+}
+
+#mail,
+#mail:hover {
+  font-size: 17px;
+  background-color: firebrick;
 }
 
 #facebook:hover {

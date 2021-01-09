@@ -27,6 +27,7 @@ body {
 a,
 a:active {
   text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
 #particles-js {
@@ -90,6 +91,13 @@ a:active {
 
 #github:hover {
   background-color: #7d2a7c;
+}
+
+#mail,
+#mail:hover {
+  font-size: 17px;
+  color: white;
+  background-color: firebrick;
 }
 
 #facebook:hover {
