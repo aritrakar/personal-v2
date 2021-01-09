@@ -1,0 +1,132 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  color: rgb(236, 236, 236);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #0ec44a);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a,
+a:active {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/*
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*/
+
+#content {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#particles-js {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#head {
+  font-size: 35px;
+  padding: 20px;
+  /*padding-top: 50px;*/
+  display: flex;
+  justify-content: space-around;
+}
+
+#main {
+  /*
+  display: flex;
+  justify-content: space-around; */
+  font-size: 35px;
+  font-weight: 200;
+  padding: 20px;
+  margin-top: -70px;
+  max-width: 70%;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  /*transform: scale(1.05);
+  transition: transform 0.2s;*/
+  border: none;
+  outline: none;
+}
+
+#projects {
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 30px;
+  background: transparent;
+}
+
+#projects:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+#media-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#media-buttons > a {
+  margin: 25px;
+  padding: 15px;
+  padding-right: 18px;
+  padding-left: 18px;
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#linkedin:hover {
+  background-color: #2872a3;
+}
+
+#github:hover {
+  background-color: #7d2a7c;
+}
+
+#facebook:hover {
+  background-color: #4267b2;
+}
+
+#instagram:hover {
+  background: linear-gradient(45deg, #fccc63, #e95950, #a841e4);
+}
