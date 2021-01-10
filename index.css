@@ -1,11 +1,14 @@
 * {
-  font-family: "Nunito", sans-serif;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
+html,
 body {
   margin: 0 auto;
   text-align: center;
-  overflow: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
   color: rgb(236, 236, 236);
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #0ec44a);
   background-size: 400% 400%;
@@ -56,9 +59,6 @@ a:active {
 }
 
 #main {
-  /*
-  display: flex;
-  justify-content: space-around; */
   font-size: 35px;
   font-weight: 200;
   padding: 20px;
@@ -94,6 +94,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 60%;
 }
 
 #media-buttons > a {
@@ -126,4 +127,41 @@ button:hover {
 
 #instagram:hover {
   background: linear-gradient(45deg, #fccc63, #e95950, #a841e4);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  #head {
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #main {
+    font-size: 25px;
+    font-weight: 200;
+    padding: 20px;
+    margin-top: -70px;
+    max-width: 70%;
+  }
+
+  #media-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+  }
+
+  #media-buttons > a {
+    margin: 5px;
+    padding-right: 18px;
+    padding-left: 18px;
+    background-color: transparent;
+    display: flex;
+    border-radius: 50%;
+  }
 }
