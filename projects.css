@@ -71,9 +71,11 @@ a:active {
 }
 
 #media-buttons {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  bottom: inherit;
 }
 
 #media-buttons > a {
