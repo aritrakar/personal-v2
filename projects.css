@@ -11,6 +11,7 @@ body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #0ec44a);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
+  --webkit-overflow-scrolling: touch;
 }
 
 @keyframes gradientBG {
@@ -115,7 +116,10 @@ a:active {
   body {
     margin: 0;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #0ec44a);
+    background-size: 2000% 2000%;
+    animation: gradientBG 15s ease infinite;
   }
 
   #projectItemWhole > h2 {
@@ -126,7 +130,7 @@ a:active {
     position: relative;
     padding: 10px;
     margin: 10px;
-    max-width: 32%;
+    max-width: 70%;
     max-height: 5%;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.1),
       0 17px 50px 0 rgba(0, 0, 0, 0.09);
