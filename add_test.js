@@ -139,6 +139,8 @@ const items = [
 ];
 
 // Get the compiled code by editing the following:
+//https://babeljs.io/repl/#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=FAYw9gdgzgLgBAQQA5LgXjgCmHOAeAEwEsA3OIgtAIiQCcwArAUxBgEkYmBbAdQAswAGyZUAfDlz5iJcZMmFSsufL4AmJcvmx6EAOaiAQmACuEEET1wDAQ0GCoDx1DwB6bZH0TNrtRuV4kP00AZSIuJGE4KAtdYQBaCOsATyZaOF1rLiY4GDA4KgImEhNaKhy-bK4wEhi4ACNbe3IIcuzha1gvTRywpgA6OA6CIY6uuVdAsflAgClrEmtgkFoiJBgAGjgACQAVAFkAGQBWTYBhYOCAZgmg-WlySio6sBhcrjEp8etP5T5aJgAZtQ-K8kFAAFwuFy6IgwPjGOp9cBcFzWFYwWjWADWaJcM2CLgxTCYLi4HU4tBcz1M5j0cQadigVB-chgaN0TBg1AA-nVBNYIFjmd1lP9BNQIGAwEgmBBUnBJf8Aal_qUWXBbt4wroorQQNRtVBobD4XU4qoACx9JB6Mq2LlUGFwhFlFya-So924PDfEVyP6A4GgiFQtGwzE42h9J2mvpEMAuAAK9GYrCgWwRLiMNJiAFJVAAGGyMlwWQoAD1UfRBXEEwr9uDZtA5Dt5_MF9YbYolUplcrSisBKtSne6XskABFuGB1a5rO7XNJbovFF0VzI1384G6JOvxABKADcwGABDAIGMWQgMGjnIAosIrzADEk2ARMDQUywYFA4uBr9YFgjvufTWCgsoEKcfBEII77IEgR5AA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=script&lineWrap=true&presets=react&prettier=true&targets=&version=7.14.7&externalPlugins=
+
 // import {items} from "./projectsData";
 
 // const App = (name, description, used, demo, github) => {
