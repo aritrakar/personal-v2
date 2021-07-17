@@ -1,96 +1,154 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="imgs/a.png">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/a.png" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <!--<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet"> -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Aritra Kar</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="root">
-        <div id="content">
-            <div id="head"><h1>Aritra Kar</h1></div>
-            <div id="main">
-                <p>I am a <span id="age"></span> year-old <span id="college-year"></span> <strong>Computer Science</strong> student at the <a href="https://uwaterloo.ca/"><strong>University of Waterloo</strong></a> </p>
-                <div id="text"></div>
-            </div>
-            
-            <div id="buttons-mid">
-                <button id="projects" style="color: white">
-                    <a href="projects.html" target="_blank" type="noopener noreferrer">Projects</a>
-                </button>
-                <button id="projects" style="color: white">
-                    <a href="Resume.pdf" target="_blank" type="noopener noreferrer">Resume</a>
-                </button>
-            </div>
-            <div id="media-buttons">
-                <a id="linkedin" href="https://www.linkedin.com/in/aritra-kar" target="_blank" type="noopener noreferrer"><img src="./imgs/linkedin-24.png" alt="LinkedIn"></a>
-                <a id="github" href="https://www.github.com/aritrakar" target="_blank" type="noopener noreferrer"><img src="./imgs/github-24.png" alt="Github"></a>
-                <a id="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=a8kar@uwaterloo.ca" target="_blank" type="noopener noreferrer">@</a>
-                <a id="facebook" href="https://www.facebook.com/profile.php?id=100014012589848" target="_blank" type="noopener noreferrer"><img src="./imgs/facebook-24.png" alt="Facebook"></a>
-                <a id="instagram" href="https://www.instagram.com/aritrakar28/" target="_blank" type="noopener noreferrer"><img src="./imgs/instagram-24.png" alt="Instagram"></a>
-            </div>
+      <div id="content">
+        <div id="head"><h1>Aritra Kar</h1></div>
+        <div id="main">
+          <p>
+            I am a <span id="age"></span> year-old
+            <span id="college-year"></span>
+            <strong>Computer Science</strong> student at the
+            <a href="https://uwaterloo.ca/"
+              ><strong>University of Waterloo</strong></a
+            >
+          </p>
+          <div id="text"></div>
         </div>
-        <div id="particles-js"></div>
+
+        <div id="buttons-mid">
+          <button id="projects" style="color: white">
+            <a
+              href="projects-eff.html"
+              target="_blank"
+              type="noopener noreferrer"
+              >Projects</a
+            >
+          </button>
+          <button id="projects" style="color: white">
+            <a href="Resume.pdf" target="_blank" type="noopener noreferrer"
+              >Resume</a
+            >
+          </button>
+        </div>
+        <div id="media-buttons">
+          <a
+            id="linkedin"
+            href="https://www.linkedin.com/in/aritra-kar"
+            target="_blank"
+            type="noopener noreferrer"
+            ><img src="./imgs/linkedin-24.png" alt="LinkedIn"
+          /></a>
+          <a
+            id="github"
+            href="https://www.github.com/aritrakar"
+            target="_blank"
+            type="noopener noreferrer"
+            ><img src="./imgs/github-24.png" alt="Github"
+          /></a>
+          <a
+            id="mail"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=a8kar@uwaterloo.ca"
+            target="_blank"
+            type="noopener noreferrer"
+            >@</a
+          >
+          <a
+            id="facebook"
+            href="https://www.facebook.com/profile.php?id=100014012589848"
+            target="_blank"
+            type="noopener noreferrer"
+            ><img src="./imgs/facebook-24.png" alt="Facebook"
+          /></a>
+          <a
+            id="instagram"
+            href="https://www.instagram.com/aritrakar28/"
+            target="_blank"
+            type="noopener noreferrer"
+            ><img src="./imgs/instagram-24.png" alt="Instagram"
+          /></a>
+        </div>
+      </div>
+      <div id="particles-js"></div>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/particlesjs@2.2.3/dist/particles.min.js"></script>
     <script src="particles.js"></script>
     <script>
-        particlesJS.load("particles-js", "particles-config.json", () => {
-            console.log("particles-config.json loaded")
-        })
+      particlesJS.load("particles-js", "particles-config.json", () => {
+        console.log("particles-config.json loaded");
+      });
     </script>
     <script>
-        var text = document.getElementById('text');
-        var typewriter = new Typewriter(text, {
+      var text = document.getElementById("text");
+      var typewriter = new Typewriter(text, {
         loop: true,
         delay: 75,
-        });
-        
-        typewriter
+      });
+
+      typewriter
         .pauseFor(1000)
-        .typeString('Determined')
+        .typeString("Determined")
         .pauseFor(1500)
         .deleteChars(10)
-        .typeString('Meticulous')
+        .typeString("Meticulous")
         .pauseFor(1500)
         .deleteChars(10)
-        .typeString('Determined')
+        .typeString("Determined")
         .pauseFor(1500)
         .deleteChars(10)
         .start();
     </script>
     <script>
-        window.onload = () => {
-            const birthYear = 2002;
-            const currentYear = new Date().getFullYear();
-            const age =
-                new Date() > new Date(`02/28/${currentYear}`)
-                ? currentYear - birthYear
-                : currentYear - birthYear - 1;
-            document.getElementById("age").innerText = `${age}`;
+      window.onload = () => {
+        const birthYear = 2002;
+        const currentYear = new Date().getFullYear();
+        const age =
+          new Date() > new Date(`02/28/${currentYear}`)
+            ? currentYear - birthYear
+            : currentYear - birthYear - 1;
+        document.getElementById("age").innerText = `${age}`;
 
-            var t = ""
-            const collegeJoiningYear = 2020;
-            const year = new Date() > new Date(`09/01/${currentYear}`)
-            ? currentYear - collegeJoiningYear 
-            : currentYear - collegeJoiningYear - 1
-            switch(year){
-                case 0: t = "first-year"; break;
-                case 1: t = "second-year"; break;
-                case 2: t = "third-year"; break;
-                case 3: t = "fourth-year"; break;
-                default: t = ""; break;
-            }
-            document.getElementById("college-year").innerText = `${t}`;
+        var t = "";
+        const collegeJoiningYear = 2020;
+        const year =
+          new Date() > new Date(`09/01/${currentYear}`)
+            ? currentYear - collegeJoiningYear
+            : currentYear - collegeJoiningYear - 1;
+        switch (year) {
+          case 0:
+            t = "first-year";
+            break;
+          case 1:
+            t = "second-year";
+            break;
+          case 2:
+            t = "third-year";
+            break;
+          case 3:
+            t = "fourth-year";
+            break;
+          default:
+            t = "";
+            break;
         }
+        document.getElementById("college-year").innerText = `${t}`;
+      };
     </script>
-</body>
+  </body>
 </html>

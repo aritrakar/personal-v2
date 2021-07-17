@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/a.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>PE</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1 style="color: white; font-size: 60px">Projects</h1>
+      <div id="projects-container"></div>
+      <div id="particles-js"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particlesjs@2.2.3/dist/particles.min.js"></script>
+    <script src="particles.js"></script>
+    <script src="no-react.js"></script>
+    <script src="add_test.js">
+      console.log("Stuff")
+    </script>
+    <script>
+      particlesJS.load("particles-js", "particles-config.json", () => {
+        console.log("particles-config.json loaded");
+      });
+    </script>
+  </body>
+</html>
