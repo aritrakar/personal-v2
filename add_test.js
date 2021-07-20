@@ -230,6 +230,7 @@ const App = (name, description, used, demo, github) => {
                   rel: "noopener noreferrer",
                 },
                 React.createElement("img", {
+                  id: "github",
                   src: "imgs/github-24.png",
                   alt: "github",
                 })
