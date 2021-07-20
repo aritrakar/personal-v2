@@ -1,6 +1,6 @@
-import { items } from "./projectsData";
+//import { items } from "./projectsData";
 
-const items2 = [
+const items = [
   {
     Name: "Statpy",
     Description:
