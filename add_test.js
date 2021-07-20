@@ -1,6 +1,6 @@
-//import { items } from "./projectsData";
+import { items } from "./projectsData";
 
-const items = [
+const items2 = [
   {
     Name: "Statpy",
     Description:
@@ -79,7 +79,7 @@ const items = [
     Name: "Clock",
     Description: "A simple sleek clock.",
     Used: "Python, Matplotlib",
-    Demo: "",
+    Demo: "https://github.com/aritrakar/Python-Projects/blob/master/Clock/Python%20Clock%20GIF.gif",
     Github: "https://github.com/aritrakar/Python-Projects/tree/master/Clock",
   },
   {
