@@ -100,17 +100,21 @@
         delay: 75,
       });
 
+      let q1 = "Persevering",
+        q2 = "Meticulous",
+        q3 = "Ambitious";
+
       typewriter
         .pauseFor(1000)
-        .typeString("Persevering")
+        .typeString(q1)
         .pauseFor(1500)
-        .deleteChars(10)
-        .typeString("Meticulous")
+        .deleteChars(q1.length)
+        .typeString(q2)
         .pauseFor(1500)
-        .deleteChars(10)
-        .typeString("Ambitious")
+        .deleteChars(q2.length)
+        .typeString(q3)
         .pauseFor(1500)
-        .deleteChars(10)
+        .deleteChars(q3.length)
         .start();
     </script>
     <script>
